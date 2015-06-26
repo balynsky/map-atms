@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_api_key">AIzaSyB9ADUOXFlaAF--apMZLL3qqeb8zuiCchc</string>
+
+    <string name="app_name">Банкоматы Радиус</string>
+
+    <string name="google_map_not_available">Карты Google недоступны</string>
+    <string name="google_map_cluster_info_atms_count">Банкоматов:\t</string>
+    <string name="common_error_network_problem">Network Error</string>
+    <string name="common_error_unknown_technical_problem">Unknown problem</string>
+
+    <string name="main_menu_exit_button">Выйти</string>
+    <string name="main_menu_logcat_button">LogCat</string>
+    <string name="main_menu_services_item">Банковские услуги</string>
+    <string name="main_menu_deposits_item">Банкоматы (Карты Google)</string>
+    <string name="main_menu_curse_item">Курс валют</string>
+    <string name="main_menu_news_item">Новости Банка</string>
+    <string name="main_menu_contacts_item">Контактная информация</string>
+    <string name="main_menu_aboutapp_item">О приложении</string>
+    <string name="main_menu_aboutbank_item">О Банке</string>
+    <string name="about_app_feedback">Оставить отзыв в Google Play</string>
+
+    <string name="about_app_feedback_url">https://play.google.com/store/apps/details?id=su.balynsky.android.atms.phone&amp;reviewId=0</string>
+    <string name="about_app_version">Версия %s</string>
+    <string name="google_map_widget_name">Google Map Widget</string>
+    <string name="app_copyright">Разработчик: Sergey Balynsky</string>
+    <string name="application_author">Sergey Balynsky</string>
+    <string name="application_author_role">Разработчик: </string>
+    <string name="startscreen_app_name">Украинская сеть банкоматов</string>
+
+    <string name="search_hint">Поиск мест</string>
+    <string name="search_settings">Поиска мест</string>
+    <string name="search_title">Поиск</string>
+
+
+</resources>

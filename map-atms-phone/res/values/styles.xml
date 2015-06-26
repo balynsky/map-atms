@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolbarStyle" parent="MaterialDrawerTheme.ActionBar">
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:textColorSecondary">#fff</item>
+    </style>
+
+    <style name="TransparentToolbarStyle" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:textColorSecondary">#fff</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+
+    <style name="AppBaseTheme" parent="MaterialDrawerTheme">
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+        <item name="colorAccent">#009688</item>
+        <item name="android:divider">#B6B6B6</item>
+        <item name="android:actionBarStyle">@style/ToolbarStyle</item>
+    </style>
+
+    <style name="AppBaseThemeWithoutAB" parent="@style/Theme.AppCompat.NoActionBar">
+    </style>
+
+    <style name="ButtonAppTheme" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@color/material_drawer_window_background</item>
+        <item name="android:textColor">@color/material_drawer_primary_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StartLayout" parent="AppBaseThemeWithoutAB">
+        <item name="android:background">#F44336</item>
+    </style>
+
+    <style name="Text.Display1" parent="Base.TextAppearance.AppCompat.Display1">
+        <item name="android:textColor">@color/material_drawer_header_selection_text</item>
+    </style>
+
+    <style name="Text.Headline" parent="Base.TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@color/material_drawer_header_selection_text</item>
+    </style>
+
+    <color name="lightPrimaryTextColor">#FFCDD2</color>
+
+    <!-- Material DEFAULT colors -->
+    <color name="material_drawer_primary">#F44336</color>
+    <color name="material_drawer_primary_dark">#D32F2F</color>
+    <color name="material_drawer_primary_light">#FFCDD2</color>
+    <color name="material_drawer_accent">#009688</color>
+
+    <!-- OVERWRITE THESE COLORS FOR A LIGHT THEME -->
+    <!-- MaterialDrawer DEFAULT colors -->
+    <color name="material_drawer_window_background">#F9F9F9</color>
+    <color name="material_drawer_background">#F9F9F9</color>
+    <!-- Material DEFAULT text / items colors -->
+    <color name="material_drawer_icons">#212121</color>
+    <color name="material_drawer_primary_text">#212121</color>
+    <color name="material_drawer_primary_icon">#8A000000</color>
+    <color name="material_drawer_secondary_text">#727272</color>
+    <color name="material_drawer_hint_text">#42000000</color>
+    <color name="material_drawer_divider">#1F000000</color>
+    <!-- Material DEFAULT drawer colors -->
+    <color name="material_drawer_selected">#E8E8E8</color>
+    <color name="material_drawer_selected_text">#F44336</color>
+    <color name="material_drawer_header_selection_text">#FFF</color>
+
+    <!-- OVERWRITE THESE COLORS FOR A DARK THEME -->
+    <!-- MaterialDrawer DEFAULT DARK colors -->
+    <color name="material_drawer_dark_window_background">#fff</color>
+    <color name="material_drawer_dark_background">#fff</color>
+    <!-- MaterialDrawer DEFAULT DARK text / items colors -->
+    <color name="material_drawer_dark_icons">#212121</color>
+    <color name="material_drawer_dark_primary_text">#212121</color>
+    <color name="material_drawer_dark_primary_icon">#212121</color>
+    <color name="material_drawer_dark_secondary_text">#727272</color>
+    <color name="material_drawer_dark_hint_text">#fff</color>
+    <color name="material_drawer_dark_divider">#B6B6B6</color>
+    <!-- MaterialDrawer DEFAULT DARK drawer colors -->
+    <color name="material_drawer_dark_selected">#F44336</color>
+    <color name="material_drawer_dark_selected_text">#fff</color>
+    <color name="material_drawer_dark_header_selection_text">#FFF</color>
+
+</resources>
